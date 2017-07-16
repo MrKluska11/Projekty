@@ -1,0 +1,45 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="960d0bca-a451-48cd-836f-88d23fc92981" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>xxxxxxxxx</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>f Przychod</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="21bdbce3-eba2-47a4-9375-b0ad47026165">
+          <ID>f Przychod</ID>
+          <Name>f Przychod</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="2d3c22c5-d5d6-4349-b3cc-f53cd0d769d9">
+            <DataSourceViewID>DWH AG2</DataSourceViewID>
+            <TableID>dbo_fPrzychod</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>f Wydatek</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="cf408b1b-6f0a-4209-ae11-dc0e068f3eed">
+          <ID>f Wydatek</ID>
+          <Name>f Wydatek</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="00d8ca81-fa38-4966-a93b-f2b4b281ae61">
+            <DataSourceViewID>DWH AG2</DataSourceViewID>
+            <TableID>dbo_fWydatek</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

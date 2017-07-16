@@ -1,0 +1,523 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="3f7d8d81-79a6-4568-9603-357e1503b704" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>yyyyyyyyyyyyyyyy</ID>
+  <Name>yyyyyyyyyyyyyyyy</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="0402c1d7-1921-476c-9d86-46c12fa79f5e">
+      <ID>f Ak d GK</ID>
+      <Name>f Ak d GK</Name>
+      <DimensionID>d Godzina</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="431b7417-402c-4883-acc9-8c5c9ddd8bb6">
+          <AttributeID>d G Id</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="663bd71e-00fd-46b7-8d6e-a20b66a2442f">
+      <ID>f Ak d GP</ID>
+      <Name>f Ak d GP</Name>
+      <DimensionID>d Godzina</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="3c704c94-195a-4cd2-aeb1-56ffa850cfc0">
+          <AttributeID>d G Id</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="36e970fd-db71-4b6c-af0a-22089096dac9">
+      <ID>d Osoba</ID>
+      <Name>d Osoba</Name>
+      <DimensionID>d Osoba</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="33648522-68e5-4c4f-bc91-da4b25173288">
+          <AttributeID>d Os Id</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="f617b080-12c1-4419-963e-26afc388a84e">
+      <ID>d Typ Miejsca</ID>
+      <Name>d Typ Miejsca</Name>
+      <DimensionID>d Typ Miejsca</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="c4f98644-f75f-4edd-bb67-9b43c9fa2336">
+          <AttributeID>d TM Id</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="d29b7050-23b3-4770-a85d-60254579b6e8">
+      <ID>d Czas</ID>
+      <Name>d Czas</Name>
+      <DimensionID>d Czas</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="999ff9e4-24e0-43c7-be9b-3cb0bdc487d7">
+          <AttributeID>d Cz Id</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="63469b99-5e32-4f0d-9dc7-2ba57129179b">
+      <ID>d Kategoria Aktywnosci</ID>
+      <Name>d Kategoria Aktywnosci</Name>
+      <DimensionID>d Kategoria Aktywnosci</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="e6b5ae08-214f-403c-9b4e-8086e6b2ec70">
+          <AttributeID>d K Ak Id</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="e9a36108-3ace-451d-8dae-e332a298c20f">
+      <ID>d Kategoria Wydatku</ID>
+      <Name>d Kategoria Wydatku</Name>
+      <DimensionID>d Kategoria Wydatku</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="f93730c9-5927-495b-83b9-e86dbbcd98cd">
+          <AttributeID>d K Wy Id</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="fe10ccfb-b048-475e-ba92-2ac4aa7eda95">
+      <ID>d Forma Platnosci</ID>
+      <Name>d Forma Platnosci</Name>
+      <DimensionID>d Forma Platnosci</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="bc673eb1-9ab3-41c6-a65c-b386b466664c">
+          <AttributeID>d FP Id</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="26df8c32-a334-4065-96b2-7bbd69e2f565">
+      <ID>d Typ Przychodu</ID>
+      <Name>d Typ Przychodu</Name>
+      <DimensionID>d Typ Przychodu</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="8b325eb1-5e0b-4ce5-b5fe-47015666487c">
+          <AttributeID>d T Pr Id</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="d02dec3b-cafc-4aa5-ba1c-b1d408cee96a">
+      <ID>f Aktywnosc</ID>
+      <Name>f Aktywnosc</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="3f125f22-e32b-4346-af38-86a5e0f47d05">
+          <ID>f Ak Czas Trwania</ID>
+          <Name>f Ak Czas Trwania</Name>
+          <Source dwd:design-time-name="cc01aab8-a1f2-4223-8164-00785e2487d8">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="b5178fa4-a021-4ed9-ac3d-b718b30612fb">
+              <TableID>dbo_fAktywnosc</TableID>
+              <ColumnID>fAk_czas_trwania</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="dd2a555f-f35a-42ca-8f55-78921afa74d2">
+          <ID>f Ak Liczba Aktywnosci</ID>
+          <Name>f Ak Liczba Aktywnosci</Name>
+          <Source dwd:design-time-name="4058a1ee-e458-4c59-9bec-a212ae7292d7">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="4f52a638-4b25-4315-9dd9-cbee6d960002">
+              <TableID>dbo_fAktywnosc</TableID>
+              <ColumnID>fAk_liczba_aktywnosci</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="c2e6ee6b-05e4-4df0-bd4c-125154093061">
+          <ID>f Aktywnosc Count</ID>
+          <Name>f Aktywnosc Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="dadc3e94-66c5-40e3-9304-c8c8fa36b5f9">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="575385b5-506d-4fde-b279-bd45c836841a">
+              <TableID>dbo_fAktywnosc</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="a7eca87a-71c7-469e-90dc-70dce3001efd">
+          <CubeDimensionID>f Ak d GK</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="3a98600d-b6e6-4404-90dc-9b72ab74f6b9">
+              <AttributeID>d G Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="348d808c-b3ee-48a7-882e-2e16efb11e6b">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="16d5a698-5abd-43d9-a01f-c9bbb60120b6">
+                    <TableID>dbo_fAktywnosc</TableID>
+                    <ColumnID>fAk_dGK_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="e13e6d54-1f0c-4fc9-81b3-47c654990d2c">
+          <CubeDimensionID>f Ak d GP</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="baff254f-fb41-4a96-b5df-e251495673d5">
+              <AttributeID>d G Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="e505807b-3372-4b7e-bd11-4096fef9fbe0">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="aebd12d9-177a-4b53-b2b6-c8432dd53771">
+                    <TableID>dbo_fAktywnosc</TableID>
+                    <ColumnID>fAk_dGP_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="84e0a1ec-6d7f-4ed3-a9cc-5e2df5d24e89">
+          <CubeDimensionID>d Osoba</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="6f49c4d6-704b-4ae6-963f-66f66bf8978a">
+              <AttributeID>d Os Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="5ffeb67b-0576-4897-be6c-eb350643b43c">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="94513317-f71e-4cc7-9d3c-8b6272cc8f0b">
+                    <TableID>dbo_fAktywnosc</TableID>
+                    <ColumnID>fAk_dOs_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="3f211b02-5f07-4486-ac59-fe55504e951c">
+          <CubeDimensionID>d Typ Miejsca</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="e2d6d0b3-8a9c-4ffb-b595-593f5dce9958">
+              <AttributeID>d TM Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="14919762-9bd0-4ac4-b356-e2ec9e2f8d7f">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="24089528-2ea6-4115-a42c-e2c2a3a1ba05">
+                    <TableID>dbo_fAktywnosc</TableID>
+                    <ColumnID>fAk_dTM_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="07064720-4a5f-4d23-afac-113c05581fee">
+          <CubeDimensionID>d Czas</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="417264c2-d95c-4b60-b875-bf68862a23a4">
+              <AttributeID>d Cz Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="f8dfc141-9e9a-4a6e-b918-74dd2230b639">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="8a3a72dc-6ff0-45a0-bee1-ef1634179d51">
+                    <TableID>dbo_fAktywnosc</TableID>
+                    <ColumnID>fAk_dCz_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="29d6e932-012a-4b90-93d1-c62105487e38">
+          <CubeDimensionID>d Kategoria Aktywnosci</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="3622e46d-4233-45f5-8718-02dc8703eee3">
+              <AttributeID>d K Ak Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="7a847137-d2dc-4d14-84f3-1ad91eca1719">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="607d3233-9640-4004-bc51-b9d41079dc65">
+                    <TableID>dbo_fAktywnosc</TableID>
+                    <ColumnID>fAk_dKAk_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="78362453-0431-45c1-baa3-e566661c1eec">
+      <ID>f Wydatek</ID>
+      <Name>f Wydatek</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="ca10a78b-edb1-4d6c-b0b9-614b58b2a492">
+          <ID>f Wy Suma Wydatkow</ID>
+          <Name>f Wy Suma Wydatkow</Name>
+          <Source dwd:design-time-name="48fc6ea8-a65d-4e7f-95ca-e1425d915809">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="5a667170-57c3-4bf4-bace-fd265fbee429">
+              <TableID>dbo_fWydatek</TableID>
+              <ColumnID>fWy_suma_wydatkow</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="1a39fc37-db06-4f7d-9315-1ad009ccc42e">
+          <ID>f Wy Liczba Wydatkow</ID>
+          <Name>f Wy Liczba Wydatkow</Name>
+          <Source dwd:design-time-name="3720a02f-5b44-4317-b8ff-d87e4923978c">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="cde9b77e-76d0-4739-bb5a-f735fd947ac0">
+              <TableID>dbo_fWydatek</TableID>
+              <ColumnID>fWy_liczba_wydatkow</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="240d0489-5844-4335-b9dd-54b3e02f2728">
+          <ID>f Wydatek Count</ID>
+          <Name>f Wydatek Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="728360e5-f4ee-4eb9-a4b4-32c7c4dec433">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="bf62be41-45bf-4582-a1b8-b6a4c00e6cef">
+              <TableID>dbo_fWydatek</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="13fe5f57-3fc7-4b65-88d6-e03eea9808f0">
+          <CubeDimensionID>d Kategoria Wydatku</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="de64d3d9-414c-4128-81b5-c76427b75eae">
+              <AttributeID>d K Wy Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="d8bd8d29-ddb6-473a-b54e-0796a624fb91">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="bb6a0dcb-fe7b-4081-a913-f04133a6a147">
+                    <TableID>dbo_fWydatek</TableID>
+                    <ColumnID>fWy_dKWy_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="421488aa-3e1f-4d8b-b37c-2f2e68801e60">
+          <CubeDimensionID>d Osoba</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="60dc5d8b-1e05-41f0-9be8-6bd869b375a4">
+              <AttributeID>d Os Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="dfffd6aa-12d0-4df3-84ee-f2d280510ccf">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="2457e32d-1478-43bd-8efd-ba341424d0e7">
+                    <TableID>dbo_fWydatek</TableID>
+                    <ColumnID>fWy_dOs_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="cdf33262-100e-4270-b3b4-126e9a9fa12d">
+          <CubeDimensionID>d Czas</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="76e8f701-5b53-4929-9f09-5ce018ad4288">
+              <AttributeID>d Cz Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="88f3eaa5-7076-401e-bed7-ff59b0f66c02">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="7b5fa839-5a2d-4463-86e5-d77bf7f58167">
+                    <TableID>dbo_fWydatek</TableID>
+                    <ColumnID>fWy_dCz_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="a8dc7d6b-7d20-4a2d-90f9-1a4b2bfe8e02">
+          <CubeDimensionID>d Forma Platnosci</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="ffd14a5e-7500-4f7a-ab57-23b40080c10a">
+              <AttributeID>d FP Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="e0705693-7e15-4bb8-a71f-a5907118f96d">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="4304e89d-01fa-4abc-9969-df02789ae74a">
+                    <TableID>dbo_fWydatek</TableID>
+                    <ColumnID>fWy_dFP_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="7adc5234-8a97-4908-bb96-c677c3a2ecb4">
+      <ID>f Przychod</ID>
+      <Name>f Przychod</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="146292a9-72b9-4f75-81d3-ff940bc68f51">
+          <ID>f Pr Suma Przychodow</ID>
+          <Name>f Pr Suma Przychodow</Name>
+          <Source dwd:design-time-name="fc0f396f-77a6-4cf9-89e5-d7eb0d658626">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="777b0119-1746-4189-91b2-78bc0aa99214">
+              <TableID>dbo_fPrzychod</TableID>
+              <ColumnID>fPr_suma_przychodow</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="92cb6c0e-a1e9-4e41-8414-fd8357cb301f">
+          <ID>f Pr Liczba Przychodow</ID>
+          <Name>f Pr Liczba Przychodow</Name>
+          <Source dwd:design-time-name="ea4c5e85-2cc5-4abb-bfe1-ad3501f10b81">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="293428b2-b4e9-4366-acf5-4a841541df4f">
+              <TableID>dbo_fPrzychod</TableID>
+              <ColumnID>fPr_liczba_przychodow</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="081e8c4c-b379-4d17-a59b-14617b404284">
+          <ID>f Przychod Count</ID>
+          <Name>f Przychod Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="682ccb73-8da5-4d0f-96bf-c600918df04b">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="bf936e0d-9d2d-4a98-ba71-daa27141ff3b">
+              <TableID>dbo_fPrzychod</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="2946b15e-aa73-4d01-b07c-9cadece3b131">
+          <CubeDimensionID>d Typ Przychodu</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="db245385-cdee-4d1d-b3f5-66a3f9f6a1fc">
+              <AttributeID>d T Pr Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="c4f24799-fbb5-4e38-b699-aebca1efdb61">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="5b82fcf8-ea10-47fc-83cf-c5bf950a0a06">
+                    <TableID>dbo_fPrzychod</TableID>
+                    <ColumnID>fPr_dTPr_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="cef60ccc-b95c-4083-b066-5d8885fe6e73">
+          <CubeDimensionID>d Osoba</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="202e7eb5-b9e5-4989-a9e6-3d8996fc4a7d">
+              <AttributeID>d Os Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="42980364-b16b-488a-8f18-13409d000d90">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="5b3db1fd-1723-44d6-8355-a9a3a24a2dae">
+                    <TableID>dbo_fPrzychod</TableID>
+                    <ColumnID>fPr_dOs_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="fc3d3d55-5529-4cf9-ab42-3c7299680cc7">
+          <CubeDimensionID>d Czas</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="f3d0b170-58ca-4285-8fb2-690cbbd747eb">
+              <AttributeID>d Cz Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="41affc1b-f94c-44a7-b60e-c3c5808ca384">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="b3c7f74e-51f1-48ce-8e1e-e9a5e8f841d2">
+                    <TableID>dbo_fPrzychod</TableID>
+                    <ColumnID>fPr_dCz_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="011f5a95-22f3-4946-be9c-d52496cae2e0">
+    <DataSourceViewID>DWH AG2</DataSourceViewID>
+  </Source>
+</Cube>

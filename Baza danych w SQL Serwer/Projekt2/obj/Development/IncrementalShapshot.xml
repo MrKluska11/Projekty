@@ -1,0 +1,159 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>Projekt2</Database>
+    <Server>localhost</Server>
+    <ConnectionString>DataSource=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>IqA2Oks04MzBmBZGXEdTDaYehL8=2016-07-19 22:36:492016-07-13 11:39:49</TimeStamp>
+        <ID>
+          <String>DWH AG2</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>4lOPJ8/JVAhDCvyg3Xn7zKeOuKE=2016-06-24 20:27:002016-07-13 11:39:49</TimeStamp>
+        <ID>
+          <String>DWH AG2</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>K1REksP+FTmJdPDGfB3JxFu45DE=2016-06-24 20:28:292016-07-13 11:39:49</TimeStamp>
+        <ID>
+          <String>d Forma Platnosci</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>WLlxjrKHCOWid18+fFwtHyy7XVs=2016-06-24 20:28:292016-07-13 11:39:49</TimeStamp>
+        <ID>
+          <String>d Czas</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>2Eat0j3FVbzRHPulIAU9cNXtjP4=2016-06-24 20:28:292016-07-13 11:39:49</TimeStamp>
+        <ID>
+          <String>d Osoba</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>6Ep8xc0yFpeE2mNga/7hGSuJ9q4=2016-06-24 20:28:292016-07-13 11:39:49</TimeStamp>
+        <ID>
+          <String>d Kategoria Wydatku</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>V0godwKuVs257tmizu3d6Te65tg=2016-06-24 21:53:132016-07-13 11:39:49</TimeStamp>
+        <ID>
+          <String>d Typ Miejsca</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>I3oqYnwsFGWrVckvmr3MUz6QxHE=2016-06-24 21:54:342016-07-13 11:39:49</TimeStamp>
+        <ID>
+          <String>d Kategoria Aktywnosci</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>R+kCkCBnq7/PjeSZ+WkJ+4Jrioc=2016-06-24 21:54:342016-07-13 11:39:49</TimeStamp>
+        <ID>
+          <String>d Godzina</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Fxa/XuTOw0UicAbeqIy6WtynEL4=2016-06-26 21:00:062016-07-13 11:39:49</TimeStamp>
+        <ID>
+          <String>d Typ Przychodu</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>5jpT3B5kOHKnsdkAejno9Qd7eXs=2016-06-24 21:59:492016-07-13 11:39:49hqTLgfFGTEHetrWDhq7bO2LSLZM=2016-06-24 21:54:342016-07-13 11:39:49</TimeStamp>
+        <ID>
+          <String>DWH AG2 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>xiEho9saoq2w0ner2S/TztYHuVw=2016-06-26 21:00:362016-07-13 11:39:49aj3O2RXghUKEZyuZMbGT/loSjVk=2016-06-26 21:00:062016-07-13 11:39:49</TimeStamp>
+        <ID>
+          <String>DWH AG2 2</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>JodltD5unpCH9uZfQGkZe0HlSpQ=2016-06-27 22:13:262016-07-13 11:39:49DKnGB/yfRvrIhbVkIaeJlcQdII8=2016-06-26 21:05:272016-07-13 11:39:49</TimeStamp>
+        <ID>
+          <String>fwydatki</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>MrdrqvzuuD53mMiu/j42E3qq5Pg=2016-07-01 23:40:582016-07-13 11:39:49r1/HnkIS3AIYbuogR/S7ZAwUVsk=2016-06-26 21:21:022016-07-13 11:39:49</TimeStamp>
+        <ID>
+          <String>xxxxxxxxx</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>dChAKzIultSxHjjxys6CCYWBQ80=2016-07-01 21:33:102016-07-13 11:39:49EmgFBATjGjcD5PNPI7p8P+ZNfZc=2016-07-01 21:33:102016-07-13 11:39:49</TimeStamp>
+        <ID>
+          <String>yyyyyyyyyyyyyyyy</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.MiningStructure</Type>
+        <TimeStamp>Zp4c3TTunOKYQislnWCuCQY+pw0=2016-06-29 10:18:202016-07-13 11:39:49</TimeStamp>
+        <ID>
+          <String>f Wydatek</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.MiningStructure</Type>
+        <TimeStamp>AsZINnc3LXchwWDIfMQmMCw0FWA=2016-07-01 12:30:452016-07-13 11:39:49</TimeStamp>
+        <ID>
+          <String>prgonoza</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.MiningStructure</Type>
+        <TimeStamp>hD+jJJn8jLQZ38OnFFQiPR/6fVc=2016-07-01 23:50:282016-07-13 11:39:49</TimeStamp>
+        <ID>
+          <String>decision</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>iKJhJZWBHHiTBGLgbK7HsYBWD1o=2016-06-24 20:25:142016-07-13 11:39:49</TimeStamp>
+      <ID>
+        <String>Projekt2</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2016-07-19T20:37:02.083333Z</LastDeployed>
+</DeploymentSnapshot>

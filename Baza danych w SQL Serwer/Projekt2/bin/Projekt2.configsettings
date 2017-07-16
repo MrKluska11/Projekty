@@ -1,0 +1,147 @@
+﻿<ConfigurationSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Database>
+    <DataSources>
+      <DataSource>
+        <ID>DWH AG2</ID>
+        <ConnectionString>Provider=SQLNCLI11.1;Data Source=LENOVO-KOMPUTER;Integrated Security=SSPI;Initial Catalog=DWH_AG2</ConnectionString>
+        <ImpersonationInfo>
+          <ImpersonationMode xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">ImpersonateAccount</ImpersonationMode>
+          <Account xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">LENOVO</Account>
+          <ImpersonationInfoSecurity xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">PasswordRemoved</ImpersonationInfoSecurity>
+        </ImpersonationInfo>
+      </DataSource>
+    </DataSources>
+    <Dimensions>
+      <Dimension>
+        <ID>d Forma Platnosci</ID>
+      </Dimension>
+      <Dimension>
+        <ID>d Czas</ID>
+      </Dimension>
+      <Dimension>
+        <ID>d Osoba</ID>
+      </Dimension>
+      <Dimension>
+        <ID>d Kategoria Wydatku</ID>
+      </Dimension>
+      <Dimension>
+        <ID>d Typ Miejsca</ID>
+      </Dimension>
+      <Dimension>
+        <ID>d Kategoria Aktywnosci</ID>
+      </Dimension>
+      <Dimension>
+        <ID>d Godzina</ID>
+      </Dimension>
+      <Dimension>
+        <ID>d Typ Przychodu</ID>
+      </Dimension>
+    </Dimensions>
+    <MiningStructures>
+      <MiningStructure>
+        <ID>f Wydatek</ID>
+      </MiningStructure>
+      <MiningStructure>
+        <ID>prgonoza</ID>
+      </MiningStructure>
+      <MiningStructure>
+        <ID>decision</ID>
+      </MiningStructure>
+    </MiningStructures>
+    <Cubes>
+      <Cube>
+        <ID>DWH AG2 1</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>f Aktywnosc</ID>
+            <Partitions>
+              <Partition>
+                <ID>f Aktywnosc</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>DWH AG2 2</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>f Przychod</ID>
+            <Partitions>
+              <Partition>
+                <ID>f Przychod</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>fwydatki</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>f Wydatek</ID>
+            <Partitions>
+              <Partition>
+                <ID>f Wydatek</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>xxxxxxxxx</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>f Przychod</ID>
+            <Partitions>
+              <Partition>
+                <ID>f Przychod</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>f Wydatek</ID>
+            <Partitions>
+              <Partition>
+                <ID>f Wydatek</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>yyyyyyyyyyyyyyyy</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>f Aktywnosc</ID>
+            <Partitions>
+              <Partition>
+                <ID>f Aktywnosc</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>f Wydatek</ID>
+            <Partitions>
+              <Partition>
+                <ID>f Wydatek</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>f Przychod</ID>
+            <Partitions>
+              <Partition>
+                <ID>f Przychod</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+    </Cubes>
+    <DataSourceImpersonationInfo>
+      <ImpersonationMode xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Default</ImpersonationMode>
+      <ImpersonationInfoSecurity xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Unchanged</ImpersonationInfoSecurity>
+    </DataSourceImpersonationInfo>
+  </Database>
+</ConfigurationSettings>
