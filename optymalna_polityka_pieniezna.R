@@ -1,4 +1,4 @@
-#Aby funkcja dzia³a³a prawidlowo najpeirw postawiæ # przed return(c(u_star = u_star, x_star = x_star)) i uruchomiæ funkcjê. Potem usun¹æ # i z powrotem uruchomiæ funkcjê.
+#Optymalizacja polityki pieniê¿nej
 
 
 #x - luka produkcyjna (logarytmy)
