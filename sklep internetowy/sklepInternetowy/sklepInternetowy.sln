@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sklepInternetowy", "sklepInternetowy\sklepInternetowy.csproj", "{C458CEAB-E7A1-4C7E-A233-BD16BC3B78EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sklepInternetowy.Tests", "sklepInternetowy.Tests\sklepInternetowy.Tests.csproj", "{16019250-6E79-45C1-96E8-230D53E82516}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C458CEAB-E7A1-4C7E-A233-BD16BC3B78EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C458CEAB-E7A1-4C7E-A233-BD16BC3B78EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C458CEAB-E7A1-4C7E-A233-BD16BC3B78EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C458CEAB-E7A1-4C7E-A233-BD16BC3B78EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16019250-6E79-45C1-96E8-230D53E82516}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16019250-6E79-45C1-96E8-230D53E82516}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16019250-6E79-45C1-96E8-230D53E82516}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16019250-6E79-45C1-96E8-230D53E82516}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
